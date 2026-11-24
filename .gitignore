@@ -1,0 +1,4 @@
+# Game builds are published as Release assets, not committed
+*.zip
+*.pck
+*.exe
