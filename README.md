@@ -12,7 +12,7 @@ Please read the [beta conditions](BETA_CONDITIONS.md) before you play.
 
 ## How to install
 
-1. Download `PixelStadiumSoccer_Beta_1.5.84_Windows.zip` from the [Releases page](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest).
+1. Download `PixelStadiumSoccer_Beta.zip` from the [Releases page](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest).
 2. Unzip it to a folder. Keep `PixelStadiumSoccer_Beta.exe` and `PixelStadiumSoccer_Beta.pck` together.
 3. Run `PixelStadiumSoccer_Beta.exe`. Windows may show a SmartScreen warning because the game is not code-signed. Choose **More info → Run anyway**.
 
