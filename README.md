@@ -1,13 +1,13 @@
 <p align="center"><img src="images/logo.png" alt="Pixel Stadium Soccer" width="320"></p>
 
-# Pixel Stadium Soccer: Public Beta 1.5.86
+# Pixel Stadium Soccer: Public Beta 1.5.87
 
 A retro pixel football game. You play the matches yourself and run the club around them. This public beta gives you **one full season**: pick any club in any of 33 divisions, and every feature is unlocked so you can try everything.
 
 **Install in two steps: the base game first, then the newest patch on top.**
 
 1. **[Base game 1.5.85 (Windows, full download, 1.1 GB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/tag/v1.5.85-beta)**: you only download this once.
-2. **[Newest patch (5 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.86.
+2. **[Newest patch (6 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.87.
 
 Please read the [beta conditions](BETA_CONDITIONS.md) before you play.
 
@@ -25,7 +25,7 @@ The game is installed in two steps: the **base version** (a full download) first
 
 ### Step 2: add the newest patch on top
 
-1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.86_base_1.5.85.pck`.
+1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.87_base_1.5.85.pck`.
 2. Make a folder called `patches` next to `PixelStadiumSoccer_Beta.exe` and put the patch file in it:
 
    ```
@@ -33,9 +33,9 @@ The game is installed in two steps: the **base version** (a full download) first
    ├── PixelStadiumSoccer_Beta.exe
    ├── PixelStadiumSoccer_Beta.pck
    └── patches/
-       └── PixelStadiumSoccer_Beta_patch_1.5.86_base_1.5.85.pck
+       └── PixelStadiumSoccer_Beta_patch_1.5.87_base_1.5.85.pck
    ```
-3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.86 (patch)`.
+3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.87 (patch)`.
 
 Do not unzip or rename the patch, and do not put it next to the `.pck` of the base game: it must be inside `patches`.
 
@@ -52,6 +52,38 @@ Do not unzip or rename the patch, and do not put it next to the `.pck` of the ba
 - **Still on 1.5.84?** That version cannot load patches. Install the 1.5.85 base once (step 1), then the patch. Your saves are kept, because they live in `%APPDATA%\Poly Football Stadium Edition\`, not in the game folder.
 - **Patch not showing?** Check that the menu says "(patch)". If it does not, the file is in the wrong folder, renamed, or meant for a different base version (the `base_1.5.85` part of the name must match your full download). The game then simply runs the base version.
 - **A new base version:** now and then a new full download replaces the base. When that happens, this page says so, and older patches stop applying.
+
+## What's new in 1.5.87
+
+**Loans.** Put a player on the loan list from the squad page and clubs make loan offers all through the transfer window, sometimes with an option or obligation to buy. To borrow a player, open him in the transfer search and choose *Negotiate loan*: agree the length, the share of his wage you pay, a loan fee and an option or obligation to buy with his club. They accept, counter or walk away. Recall a loanee early, or send a borrowed player back early, for a fee.
+
+![Loan talks](screenshots/1.5.87/03_loan_talks.png)
+
+The transfer hub lists your loans, with how each loanee is doing and the recall or buy buttons.
+
+![Loans in the transfer hub](screenshots/1.5.87/04_loans_hub.png)
+
+Every few rounds a loan watch in your inbox reports appearances, goals and ratings at the loan clubs.
+
+![Loan watch](screenshots/1.5.87/05_loan_watch.png)
+
+**Agents.** Agents approach you with clients who would strengthen your weakest position, and your own players' agents speak out in the press when a player is not getting a game, his contract talks stall or he is in great form.
+
+![An agent's call](screenshots/1.5.87/06_agent_pitch.png)
+
+**Pyro smoke.** The dotted pixel smoke is replaced by soft, dense plumes in the club colours.
+
+![Pyro smoke](screenshots/1.5.87/01_pyro_smoke.png)
+
+![Pyro from the match camera](screenshots/1.5.87/02_pyro_match_camera.png)
+
+**Bookings and injuries.** Hold A / J to speed up a booking. Play stops for an injury but the ball keeps rolling, and play restarts with a dropped ball where the player went down.
+
+![Booking speed-up](screenshots/1.5.87/07_booking_speed_up.png)
+
+![Injury stoppage](screenshots/1.5.87/08_injury_stoppage.png)
+
+**Also:** throw-in options spread out and wait onside; free kicks by the byline stay on the pitch and the camera stays inside the ground; LB picks the player best placed for the ball and no longer switches away from a pass's receiver.
 
 ## What's in the beta
 
