@@ -1,6 +1,6 @@
 <p align="center"><img src="images/logo.png" alt="Pixel Stadium Soccer" width="320"></p>
 
-# Pixel Stadium Soccer: Public Beta 1.5.84
+# Pixel Stadium Soccer: Public Beta 1.5.85
 
 A retro pixel football game. You play the matches yourself and run the club around them. This public beta gives you **one full season**: pick any club in any of 33 divisions, and every feature is unlocked so you can try everything.
 
@@ -21,6 +21,16 @@ Please read the [beta conditions](BETA_CONDITIONS.md) before you play.
 - A graphics card with Vulkan support (most cards from 2016 onwards)
 - About 1.5 GB of free disk space
 - A controller (recommended), or keyboard and mouse
+
+## Updating
+
+- **From 1.5.84:** download the full 1.5.85 zip once and replace your old game folder. Your saves are kept, because they live in `%APPDATA%\Poly Football Stadium Edition\`, not in the game folder.
+- **From 1.5.85 onwards:** updates come as a small patch file (a few MB) on the [Releases page](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases).
+  1. Make a folder called `patches` next to `PixelStadiumSoccer_Beta.exe`.
+  2. Put the patch file (for example `PixelStadiumSoccer_Beta_patch_1.5.86_base_1.5.85.pck`) in it.
+  3. Restart the game.
+- **Checking it worked:** the main menu shows the new version followed by "(patch)".
+- **You only need the newest patch:** each patch includes all the changes since the last full download.
 
 ## What's in the beta
 
@@ -75,7 +85,6 @@ Please read the [beta conditions](BETA_CONDITIONS.md) before you play.
 
 - This is a beta. Expect bugs, and save often. In testing, the game crashed once while closing; no progress was lost.
 - Hair shapes show mainly in the outline of the head (ponytails and braids do not hang over the shirt).
-- The smoke haze does not yet take stand roofs into account.
 - CPU dribblers mostly use step-overs, and only you can use the flick-up.
 - Saves from this beta may not work in later versions.
 
