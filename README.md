@@ -1,13 +1,13 @@
 <p align="center"><img src="images/logo.png" alt="Pixel Stadium Soccer" width="320"></p>
 
-# Pixel Stadium Soccer: Public Beta 1.5.89
+# Pixel Stadium Soccer: Public Beta 1.5.90
 
 A retro pixel football game. You play the matches yourself and run the club around them. This public beta gives you **one full season**: pick any club in any of 33 divisions, and every feature is unlocked so you can try everything.
 
 **Install in two steps: the base game first, then the newest patch on top.**
 
 1. **[Base game 1.5.85 (Windows, full download, 1.1 GB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/tag/v1.5.85-beta)**: you only download this once.
-2. **[Newest patch (7 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.89.
+2. **[Newest patch (7 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.90.
 
 Please read the [beta conditions](BETA_CONDITIONS.md) before you play.
 
@@ -25,7 +25,7 @@ The game is installed in two steps: the **base version** (a full download) first
 
 ### Step 2: add the newest patch on top
 
-1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.89_base_1.5.85.pck`.
+1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.90_base_1.5.85.pck`.
 2. Make a folder called `patches` next to `PixelStadiumSoccer_Beta.exe` and put the patch file in it:
 
    ```
@@ -33,9 +33,9 @@ The game is installed in two steps: the **base version** (a full download) first
    ├── PixelStadiumSoccer_Beta.exe
    ├── PixelStadiumSoccer_Beta.pck
    └── patches/
-       └── PixelStadiumSoccer_Beta_patch_1.5.89_base_1.5.85.pck
+       └── PixelStadiumSoccer_Beta_patch_1.5.90_base_1.5.85.pck
    ```
-3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.89 (patch)`.
+3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.90 (patch)`.
 
 Do not unzip or rename the patch, and do not put it next to the `.pck` of the base game: it must be inside `patches`.
 
@@ -52,6 +52,24 @@ Do not unzip or rename the patch, and do not put it next to the `.pck` of the ba
 - **Still on 1.5.84?** That version cannot load patches. Install the 1.5.85 base once (step 1), then the patch. Your saves are kept, because they live in `%APPDATA%\Poly Football Stadium Edition\`, not in the game folder.
 - **Patch not showing?** Check that the menu says "(patch)". If it does not, the file is in the wrong folder, renamed, or meant for a different base version (the `base_1.5.85` part of the name must match your full download). The game then simply runs the base version.
 - **A new base version:** now and then a new full download replaces the base. When that happens, this page says so, and older patches stop applying.
+
+## What's new in 1.5.90
+
+**Medical department.** A new Medical page under Squad. Your club has a head physio, a sports scientist and a club doctor, each with a skill and a speciality, and each season there are new candidates to hire (the best a step above your club's level). The physio gets players back sooner, the sports scientist cuts injuries in training and the warm-up and warns you who is at risk, and the doctor makes the return dates accurate and catches problems in pre-match fitness tests. Leave a post empty and you will feel it.
+
+![The Medical page](screenshots/1.5.90/01_medical.png)
+
+**Training and warm-up injuries.** Rare, and they depend on the player: his fitness, his workload, his age and his injury record. A tired, overworked squad breaks down three times as often. Every now and then a starter pulls up in the warm-up: the best man on the bench takes his place, and the team sheet shows the late change.
+
+![A late change on the team sheet](screenshots/1.5.90/02_late_change.png)
+
+![A training injury report](screenshots/1.5.90/03_training_injury.png)
+
+**A new-look line-up page.** The pitch on the Squad page is drawn like the match team sheet, with every starter in his kit, and the squad list shows each player's kit. Players the sports scientist is worried about carry a RISK tag.
+
+![The Squad page](screenshots/1.5.90/04_squad.png)
+
+**Also:** an injured starter in your line-up is replaced in his own position instead of the whole team being re-picked.
 
 ## What's new in 1.5.89
 
