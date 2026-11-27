@@ -1,13 +1,13 @@
 <p align="center"><img src="images/logo.png" alt="Pixel Stadium Soccer" width="320"></p>
 
-# Pixel Stadium Soccer: Public Beta 1.5.88
+# Pixel Stadium Soccer: Public Beta 1.5.89
 
 A retro pixel football game. You play the matches yourself and run the club around them. This public beta gives you **one full season**: pick any club in any of 33 divisions, and every feature is unlocked so you can try everything.
 
 **Install in two steps: the base game first, then the newest patch on top.**
 
 1. **[Base game 1.5.85 (Windows, full download, 1.1 GB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/tag/v1.5.85-beta)**: you only download this once.
-2. **[Newest patch (7 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.88.
+2. **[Newest patch (7 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.89.
 
 Please read the [beta conditions](BETA_CONDITIONS.md) before you play.
 
@@ -25,7 +25,7 @@ The game is installed in two steps: the **base version** (a full download) first
 
 ### Step 2: add the newest patch on top
 
-1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.88_base_1.5.85.pck`.
+1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.89_base_1.5.85.pck`.
 2. Make a folder called `patches` next to `PixelStadiumSoccer_Beta.exe` and put the patch file in it:
 
    ```
@@ -33,9 +33,9 @@ The game is installed in two steps: the **base version** (a full download) first
    ├── PixelStadiumSoccer_Beta.exe
    ├── PixelStadiumSoccer_Beta.pck
    └── patches/
-       └── PixelStadiumSoccer_Beta_patch_1.5.88_base_1.5.85.pck
+       └── PixelStadiumSoccer_Beta_patch_1.5.89_base_1.5.85.pck
    ```
-3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.88 (patch)`.
+3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.89 (patch)`.
 
 Do not unzip or rename the patch, and do not put it next to the `.pck` of the base game: it must be inside `patches`.
 
@@ -52,6 +52,20 @@ Do not unzip or rename the patch, and do not put it next to the `.pck` of the ba
 - **Still on 1.5.84?** That version cannot load patches. Install the 1.5.85 base once (step 1), then the patch. Your saves are kept, because they live in `%APPDATA%\Poly Football Stadium Edition\`, not in the game folder.
 - **Patch not showing?** Check that the menu says "(patch)". If it does not, the file is in the wrong folder, renamed, or meant for a different base version (the `base_1.5.85` part of the name must match your full download). The game then simply runs the base version.
 - **A new base version:** now and then a new full download replaces the base. When that happens, this page says so, and older patches stop applying.
+
+## What's new in 1.5.89
+
+**Penalty run-ups.** Every taker has his own run-up, the same every time he steps up: classic, long (from deep and quick), short (two or three steps), a stutter (he checks his stride a pace from the ball and waits for the keeper), angled (a wide curving approach) or a slow walk-up with a quick last couple of steps. Shootouts too. A taker starting a long or wide run-up no longer loses the kick.
+
+![Penalty run-ups: long, stutter, angled and walk-up](screenshots/1.5.89/01_runups.png)
+
+**Keepers face the ball** at free kicks, corners and throw-ins as well as penalties, from when they reach their spot until the kick, and through the taker's run-up. At a penalty the keeper's "big" stance ends when the run-up starts, so he is set to save when the ball is struck.
+
+![Keeper squared up to a free kick](screenshots/1.5.89/02_keeper_free_kick.png)
+
+**Scarves** thrown onto the pitch are in the colours of the club the fan supports, and show the true club colour (a red scarf used to come out pink).
+
+![Scarves in the home club's red and white](screenshots/1.5.89/03_scarves.png)
 
 ## What's new in 1.5.88
 
