@@ -1,13 +1,13 @@
 <p align="center"><img src="images/logo.png" alt="Pixel Stadium Soccer" width="320"></p>
 
-# Pixel Stadium Soccer: Public Beta 1.5.87
+# Pixel Stadium Soccer: Public Beta 1.5.88
 
 A retro pixel football game. You play the matches yourself and run the club around them. This public beta gives you **one full season**: pick any club in any of 33 divisions, and every feature is unlocked so you can try everything.
 
 **Install in two steps: the base game first, then the newest patch on top.**
 
 1. **[Base game 1.5.85 (Windows, full download, 1.1 GB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/tag/v1.5.85-beta)**: you only download this once.
-2. **[Newest patch (6 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.87.
+2. **[Newest patch (7 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.88.
 
 Please read the [beta conditions](BETA_CONDITIONS.md) before you play.
 
@@ -25,7 +25,7 @@ The game is installed in two steps: the **base version** (a full download) first
 
 ### Step 2: add the newest patch on top
 
-1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.87_base_1.5.85.pck`.
+1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.88_base_1.5.85.pck`.
 2. Make a folder called `patches` next to `PixelStadiumSoccer_Beta.exe` and put the patch file in it:
 
    ```
@@ -33,9 +33,9 @@ The game is installed in two steps: the **base version** (a full download) first
    ├── PixelStadiumSoccer_Beta.exe
    ├── PixelStadiumSoccer_Beta.pck
    └── patches/
-       └── PixelStadiumSoccer_Beta_patch_1.5.87_base_1.5.85.pck
+       └── PixelStadiumSoccer_Beta_patch_1.5.88_base_1.5.85.pck
    ```
-3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.87 (patch)`.
+3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.88 (patch)`.
 
 Do not unzip or rename the patch, and do not put it next to the `.pck` of the base game: it must be inside `patches`.
 
@@ -53,37 +53,69 @@ Do not unzip or rename the patch, and do not put it next to the `.pck` of the ba
 - **Patch not showing?** Check that the menu says "(patch)". If it does not, the file is in the wrong folder, renamed, or meant for a different base version (the `base_1.5.85` part of the name must match your full download). The game then simply runs the base version.
 - **A new base version:** now and then a new full download replaces the base. When that happens, this page says so, and older patches stop applying.
 
-## What's new in 1.5.87
+## What's new in 1.5.88
 
-**Loans.** Put a player on the loan list from the squad page and clubs make loan offers all through the transfer window, sometimes with an option or obligation to buy. To borrow a player, open him in the transfer search and choose *Negotiate loan*: agree the length, the share of his wage you pay, a loan fee and an option or obligation to buy with his club. They accept, counter or walk away. Recall a loanee early, or send a borrowed player back early, for a fee.
+**Matchday.** Walk-out mascots are real children, holding their player's hand all the way out of the tunnel. At full time the managers actually shake hands. The tunnel is rebuilt in brick with a club-colour portal and an arched, padded canopy. A substitution made at half time happens in the tunnel, and the new man walks out with the team.
 
-![Loan talks](screenshots/1.5.87/03_loan_talks.png)
+![Walk-out mascots](screenshots/1.5.88/01_walkout.png)
 
-The transfer hub lists your loans, with how each loanee is doing and the recall or buy buttons.
+![The managers shake hands](screenshots/1.5.88/02_handshake.png)
 
-![Loans in the transfer hub](screenshots/1.5.87/04_loans_hub.png)
+![The new tunnel](screenshots/1.5.88/03_tunnel.png)
 
-Every few rounds a loan watch in your inbox reports appearances, goals and ratings at the loan clubs.
+**Club mascots.** Four new characters matched to the club's nickname: a lion, a fox, an owl and a bull, beside the bear, bird and hound.
 
-![Loan watch](screenshots/1.5.87/05_loan_watch.png)
+![Club mascots](screenshots/1.5.88/04_mascots.png)
 
-**Agents.** Agents approach you with clients who would strengthen your weakest position, and your own players' agents speak out in the press when a player is not getting a game, his contract talks stall or he is in great form.
+**Kits and boots.** Numbers on the back, collar lines, the maker's mark, sock tops, seams, cuffs and boot soles.
 
-![An agent's call](screenshots/1.5.87/06_agent_pitch.png)
+![Kit detail](screenshots/1.5.88/05_kits.png)
 
-**Pyro smoke.** The dotted pixel smoke is replaced by soft, dense plumes in the club colours.
+**Ad boards.** The lettering no longer flickers as the camera moves, and LED boards change together. You can upload your own boards on the TIFO screen: choose "Ad board" and use a **1024 × 128 pixel** PNG or JPG (8:1). They go round your home ground.
 
-![Pyro smoke](screenshots/1.5.87/01_pyro_smoke.png)
+![Upload your own ad boards](screenshots/1.5.88/06_ad_board_upload.png)
 
-![Pyro from the match camera](screenshots/1.5.87/02_pyro_match_camera.png)
+![Your board in the ground](screenshots/1.5.88/07_custom_board.png)
 
-**Bookings and injuries.** Hold A / J to speed up a booking. Play stops for an injury but the ball keeps rolling, and play restarts with a dropped ball where the player went down.
+**Weather and nets.** The weather can change during a match, the way the ground's climate goes in that month: rain starts with a few drops and builds, and eases off the same way. Goal nets are chunkier, and the ball settles in the net after a goal instead of freezing in mid-air.
 
-![Booking speed-up](screenshots/1.5.87/07_booking_speed_up.png)
+![A front arrives](screenshots/1.5.88/08_weather.png)
 
-![Injury stoppage](screenshots/1.5.87/08_injury_stoppage.png)
+![Goal nets](screenshots/1.5.88/09_nets.png)
 
-**Also:** throw-in options spread out and wait onside; free kicks by the byline stay on the pitch and the camera stays inside the ground; LB picks the player best placed for the ball and no longer switches away from a pass's receiver.
+**Stories with more life.** Match reports tell the story of the game in varied words, with the turning point, the man of the match and a player calling out the referee when a big decision went against his side. League round-ups lead with the round's stories, and results come in tables.
+
+![Match report](screenshots/1.5.88/10_match_report.png)
+
+**Rivalries.** Every club has rivals (derby and local neighbours) and feuds grow out of heated games. Fans wind each other up in Terrace Talk, and away ends at a rival's ground are more likely to kick off.
+
+![Derby banter](screenshots/1.5.88/11_derby_report.png)
+
+**Fans and the board.** The weekly supporter note leads with what the terraces are talking about, with a table of fan figures. When the supporters ask how the season is going, the answers follow your form. Fans leaving early walk out through exit doors, and on a losing run some throw their scarves onto the pitch. Away fans are back in Argentina.
+
+![Supporter note](screenshots/1.5.88/12_supporter_note.png)
+
+![Fans leaving through the exits](screenshots/1.5.88/13_exits.png)
+
+![Scarves on the pitch](screenshots/1.5.88/18_scarves.png)
+
+**On the pitch.** Players surround the referee after big calls, keepers organise at set pieces and make themselves big for penalties, and penalties are rarer (about 0.16 a match in testing, from 0.4).
+
+![Calling out the referee](screenshots/1.5.88/14_referee.png)
+
+![Keeper at a penalty](screenshots/1.5.88/15_keeper_penalty.png)
+
+**Records and awards.** Club stats shows the club's all-time scorers, appearances and assists and its legends. At the end of the season the Golden Boot, Young Player, Goalkeeper and Playmaker of the Year are chosen from every league.
+
+![Club records](screenshots/1.5.88/16_club_records.png)
+
+![World awards](screenshots/1.5.88/17_world_awards.png)
+
+**Scouting.** Scout reports come with a table of the players found and a "View and sign" link for each.
+
+![Scout report](screenshots/1.5.88/19_scout_report.png)
+
+**Also:** you can no longer hijack a deal for your own player; the numbers above players stay white; placeholder captions are gone.
 
 ## What's in the beta
 
