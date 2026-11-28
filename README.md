@@ -1,13 +1,13 @@
 <p align="center"><img src="images/logo.png" alt="Pixel Stadium Soccer" width="320"></p>
 
-# Pixel Stadium Soccer: Public Beta 1.5.91
+# Pixel Stadium Soccer: Public Beta 1.5.92
 
 A retro pixel football game. You play the matches yourself and run the club around them. This public beta gives you **one full season**: pick any club in any of 33 divisions, and every feature is unlocked so you can try everything.
 
 **Install in two steps: the base game first, then the newest patch on top.**
 
 1. **[Base game 1.5.85 (Windows, full download, 1.1 GB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/tag/v1.5.85-beta)**: you only download this once.
-2. **[Newest patch (11 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.91.
+2. **[Newest patch (11 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.92.
 
 Please read the [beta conditions](BETA_CONDITIONS.md) before you play.
 
@@ -25,7 +25,7 @@ The game is installed in two steps: the **base version** (a full download) first
 
 ### Step 2: add the newest patch on top
 
-1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.91_base_1.5.85.pck`.
+1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.92_base_1.5.85.pck`.
 2. Make a folder called `patches` next to `PixelStadiumSoccer_Beta.exe` and put the patch file in it:
 
    ```
@@ -33,9 +33,9 @@ The game is installed in two steps: the **base version** (a full download) first
    ├── PixelStadiumSoccer_Beta.exe
    ├── PixelStadiumSoccer_Beta.pck
    └── patches/
-       └── PixelStadiumSoccer_Beta_patch_1.5.91_base_1.5.85.pck
+       └── PixelStadiumSoccer_Beta_patch_1.5.92_base_1.5.85.pck
    ```
-3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.91 (patch)`.
+3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.92 (patch)`.
 
 Do not unzip or rename the patch, and do not put it next to the `.pck` of the base game: it must be inside `patches`.
 
@@ -52,6 +52,26 @@ Do not unzip or rename the patch, and do not put it next to the `.pck` of the ba
 - **Still on 1.5.84?** That version cannot load patches. Install the 1.5.85 base once (step 1), then the patch. Your saves are kept, because they live in `%APPDATA%\Poly Football Stadium Edition\`, not in the game folder.
 - **Patch not showing?** Check that the menu says "(patch)". If it does not, the file is in the wrong folder, renamed, or meant for a different base version (the `base_1.5.85` part of the name must match your full download). The game then simply runs the base version.
 - **A new base version:** now and then a new full download replaces the base. When that happens, this page says so, and older patches stop applying.
+
+## What's new in 1.5.92
+
+**Training.** A new Training page under Squad. Each week you choose how hard the squad trains (light, normal or hard) and what they work on: tactical, attacking, defending, set pieces, fitness or recovery. A hard week sharpens the team for match day but tires legs and brings more training injuries; a light week keeps players fresh. The page sums up your plan in a line and lists its effects, and the plan stays until you change it.
+
+![The Training page: a hard week of set pieces](screenshots/1.5.92/01_training.png)
+
+**A small edge on match day.** Your players get a small edge in whatever they worked on: more accurate passing, sharper finishing, stronger tackles, better corners, free kicks and crosses, or more stamina. It is about 5% for a normal week with average coaches and never more than 15%. AI clubs train too, so the default plan keeps you level with a club of your standing.
+
+**Individual programmes.** Up to five players can have their own programme: extra finishing, passing, crossing, tackling, stamina or goalkeeping work, or a rest from the main sessions to freshen up.
+
+![Individual training and the coaches available this season](screenshots/1.5.92/02_individual.png)
+
+**Coaching staff.** An assistant manager, a fitness coach, an attacking coach, a defending coach and a goalkeeping coach, each with a skill and a speciality. Better coaches make the work pay off more, and each season there are new candidates to hire.
+
+![The coaching staff introduce themselves](screenshots/1.5.92/03_coaching_staff.png)
+
+**The training report.** At the end of each week the coaches report who impressed (their form and morale go up), who struggled, who did extra work and who picked up a knock.
+
+![The end-of-week training report](screenshots/1.5.92/04_report.png)
 
 ## What's new in 1.5.91
 
