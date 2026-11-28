@@ -1,13 +1,13 @@
 <p align="center"><img src="images/logo.png" alt="Pixel Stadium Soccer" width="320"></p>
 
-# Pixel Stadium Soccer: Public Beta 1.5.90
+# Pixel Stadium Soccer: Public Beta 1.5.91
 
 A retro pixel football game. You play the matches yourself and run the club around them. This public beta gives you **one full season**: pick any club in any of 33 divisions, and every feature is unlocked so you can try everything.
 
 **Install in two steps: the base game first, then the newest patch on top.**
 
 1. **[Base game 1.5.85 (Windows, full download, 1.1 GB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/tag/v1.5.85-beta)**: you only download this once.
-2. **[Newest patch (7 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.90.
+2. **[Newest patch (11 MB)](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest)**: currently 1.5.91.
 
 Please read the [beta conditions](BETA_CONDITIONS.md) before you play.
 
@@ -25,7 +25,7 @@ The game is installed in two steps: the **base version** (a full download) first
 
 ### Step 2: add the newest patch on top
 
-1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.90_base_1.5.85.pck`.
+1. Download the patch file from the [latest release](https://github.com/TristanHopkins2000/Pixel-Stadium-Beta/releases/latest), for example `PixelStadiumSoccer_Beta_patch_1.5.91_base_1.5.85.pck`.
 2. Make a folder called `patches` next to `PixelStadiumSoccer_Beta.exe` and put the patch file in it:
 
    ```
@@ -33,9 +33,9 @@ The game is installed in two steps: the **base version** (a full download) first
    ├── PixelStadiumSoccer_Beta.exe
    ├── PixelStadiumSoccer_Beta.pck
    └── patches/
-       └── PixelStadiumSoccer_Beta_patch_1.5.90_base_1.5.85.pck
+       └── PixelStadiumSoccer_Beta_patch_1.5.91_base_1.5.85.pck
    ```
-3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.90 (patch)`.
+3. Start the game. The main menu now shows the new version followed by "(patch)", for example `v1.5.91 (patch)`.
 
 Do not unzip or rename the patch, and do not put it next to the `.pck` of the base game: it must be inside `patches`.
 
@@ -52,6 +52,28 @@ Do not unzip or rename the patch, and do not put it next to the `.pck` of the ba
 - **Still on 1.5.84?** That version cannot load patches. Install the 1.5.85 base once (step 1), then the patch. Your saves are kept, because they live in `%APPDATA%\Poly Football Stadium Edition\`, not in the game folder.
 - **Patch not showing?** Check that the menu says "(patch)". If it does not, the file is in the wrong folder, renamed, or meant for a different base version (the `base_1.5.85` part of the name must match your full download). The game then simply runs the base version.
 - **A new base version:** now and then a new full download replaces the base. When that happens, this page says so, and older patches stop applying.
+
+## What's new in 1.5.91
+
+**Sharper players.** In the normal camera a player is only 20 to 30 pixels tall, and the game used to shrink his full-size sprite by dropping pixels, so shapes broke up and numbers flickered. Players far from the camera now use small sprites made for that size. The new Detailed look (the default) adds darker edges inside the figure, lines where the kit meets, a floodlit edge and richer shading, without making anyone wider. Choose Classic, Sharp or Detailed in Settings > Display > Player sprites.
+
+![Six players in the broadcast view, 4x zoom: Classic, Sharp, Detailed](screenshots/1.5.91/01_sprites.png)
+
+**Heights you can see.** A 199 cm centre-back now stands a head taller than a 165 cm winger (before, height changed a player by about a pixel). Tall players look rangy, and powerful players are a little broader than wiry ones.
+
+![The same six players, 165 to 199 cm, before and now](screenshots/1.5.91/02_heights.png)
+
+**Captain and set-piece takers.** The Squad page has a roles strip: captain, vice-captain, penalties, free kicks and corners on each side. Leave them on Auto (it names who the match would pick) or choose your man. Your takers take the kicks, your penalty taker goes first in a shootout, and your captain leads the team out, wears the armband and lifts the trophies. A new captain is news, and a captain who loses the armband takes it badly.
+
+![The roles strip on the Squad page](screenshots/1.5.91/03_roles.png)
+
+![The captain's armband, from behind, in front and in profile](screenshots/1.5.91/04_armband.png)
+
+**Low crosses and diving headers.** A whipped or driven cross is now aimed where your runner can actually get to while the ball is in the air, through the gap past the defenders, so far more of them find their man (73% in testing, against 16%). Attackers meet them on the volley, or throw themselves at the ones they can't reach standing: AI players now score diving headers too, and AI teams play low crosses as well as floated ones.
+
+![A diving header from a low cross](screenshots/1.5.91/05_diving_header.png)
+
+**Also:** sleeve cuffs and shorts hems now show (they never drew before), and a shorts trim no longer turns the whole shorts the trim colour.
 
 ## What's new in 1.5.90
 
